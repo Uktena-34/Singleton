@@ -1,0 +1,13 @@
+﻿El patron Sigleton esta diseñado para restringir la creacion de objetos pertenecientes a una clase
+o el valor de un tipo a un unico objeto.
+
+Su intención consiste en garantizar que una clase solo tenga una instancia y proporcionar un punto de acceso global a ella.
+
+
+
+Claves para no olvidar cómo crear este patrón:
+
+*Constructor privado
+*Campo estático privado con inicialización directa (inline)
+*Propiedad estática pública que devuelve el campo instanciado
+
